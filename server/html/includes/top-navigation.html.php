@@ -7,7 +7,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img src="<?php echo BASE_URL?>images/pec-logo.png" alt="PEC logo" width="70" /></a>
+            <a class="navbar-brand" href="index.php"><img src="<?php echo BASE_URL?>images/pec-logo.png" alt="PEC logo" width="70" /></a>
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">

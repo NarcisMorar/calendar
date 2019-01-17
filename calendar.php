@@ -153,7 +153,7 @@ $pec->dragOpacity(.2);
 
 
                         <!-- My Calendar -->
-                        <div id="my-calendars" class="panel panel-default" style="margin-top: 10px; margin-left: 3px;">
+                        <!-- <div id="my-calendars" class="panel panel-default" style="margin-top: 10px; margin-left: 3px;">
                             <div class="panel-heading">
                                 <h3 class="panel-title" style="width: 100%">
                                     My Calendars
@@ -179,7 +179,7 @@ $pec->dragOpacity(.2);
                                     <a href="javascript:void(0);" class="list-group-item ladda-button <?php echo $activeClass?>" data-style="expand-right" style="background-color: <?php echo $v['color']?>; color:white;" id="<?php echo $v['id']?>"><span class="ladda-label"><?php echo $v['name']?></span> <?php echo $active?></a>
                                 <?php } ?>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="col-md-10" style="overflow:hidden;float:inherit;width:inherit">
                         <?php

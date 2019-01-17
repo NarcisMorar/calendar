@@ -20,7 +20,7 @@
         border-radius: 0;
     }
 
-</style>
+/* <!-- </style>
 <div class="modal fade" id="myModalCalendarCreate" tabindex="-1" role="dialog" aria-labelledby="myModalCalendarCreateLabel" aria-hidden="true" style="text-align:left;">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -30,4 +30,4 @@
 
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
+</div><!-- /.modal --> --> */

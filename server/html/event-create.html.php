@@ -335,14 +335,14 @@ $allCalendars = $allCals->allCalendars;
                             </div>
 
                             <!-- Repeat Box -->
-                            <div class="panel panel-info repeat-box col-sm-12" style="margin-top: 8px; margin-bottom: 8px;">
+                            <!-- <div class="panel panel-info repeat-box col-sm-12" style="margin-top: 8px; margin-bottom: 8px;">
 
 
                                 <?php include(SERVER_HTML_INCLUDE_DIR .'unlock-massage.html.php') ?>
                                 <img src="<?php echo BASE_URL?>images/event-repeat-demo.png" />
 
 
-                            </div>
+                            </div> -->
 
                             <!-- Repeat Box Ends -->
 

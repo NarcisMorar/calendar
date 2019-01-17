@@ -39,8 +39,8 @@ ob_start();
     <tfoot style="border-top: 1px solid; background-color: #CCC; color: #333333" >
     <tr>
         <td colspan="2">
-            <p>Invitation from PHP Event Calendar</p>
-            <p>You are receiving this courtesy email at the account<?php echo $guestData['email'] ?> because you are an attendee of this event. To stop receiving future notification for this event, decline this event. Alternatively you can sign up for a account at http://www.phpeventcal.com and control your notification setting for your entire calendar.</p>
+            <p>Invitation Calendar Misiune</p>
+            <p>You are receiving this courtesy email at the account<?php echo $guestData['email'] ?> because you are an attendee of this event. To stop receiving future notification for this event, decline this event. Alternatively you can sign up for a account at narcismorar@gmail.com and control your notification setting for your entire calendar.</p>
         </td>
     </tr>
 
