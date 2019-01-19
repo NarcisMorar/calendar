@@ -7,12 +7,11 @@ define('DEBUG',false);
 
 //============DB Settings
 define('PEC_DB_HOST','localhost');
-define('PEC_DB_USER','id8385268_calendar');
-define('PEC_DB_PASS','calendar');
+define('PEC_DB_USER','root');
+define('PEC_DB_PASS','');
 define('PEC_DB_TYPE','mysql');
-define('PEC_DB_NAME','id8385268_calendar');
+define('PEC_DB_NAME','calendar');
 define('PEC_DB_CHARSET','');
-
 /******** DO NOT MODIFY ***********/
 require_once('pec.php');
 /**********************************/

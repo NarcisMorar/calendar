@@ -57,9 +57,6 @@ $pec->dragOpacity(.2);
     <!-- Meta, title, CSS, favicons, etc. -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
-    <style>img[alt="www.000webhost.com"]{display:none;}</style>
     <?php echo $pec->display('head');?>
 </head>
 <body>

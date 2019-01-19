@@ -5,9 +5,6 @@ ob_start();
 <html>
 <head>
     <title></title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
-    <style>img[alt="www.000webhost.com"]{display:none;}</style>
 </head>
 <body style="font-family: verdana">
 <table style="border: 1px solid; width: 90%; font-size: 16px; padding: 10px">
@@ -37,12 +34,12 @@ ob_start();
     </tr>
     </tbody>
     <tfoot style="border-top: 1px solid; background-color: #CCC; color: #333333" >
-    <tr>
+    <!-- <tr>
         <td colspan="2">
-            <p>Invitation Calendar Misiune</p>
-            <p>You are receiving this courtesy email at the account<?php echo $guestData['email'] ?> because you are an attendee of this event. To stop receiving future notification for this event, decline this event. Alternatively you can sign up for a account at narcismorar@gmail.com and control your notification setting for your entire calendar.</p>
+            <p>Invitation from PHP Event Calendar</p>
+            <p>You are receiving this courtesy email at the account<?php echo $guestData['email'] ?> because you are an attendee of this event. To stop receiving future notification for this event, decline this event. Alternatively you can sign up for a account at http://narcismorar.com and control your notification setting for your entire calendar.</p>
         </td>
-    </tr>
+    </tr> -->
 
     </tfoot>
 </table>

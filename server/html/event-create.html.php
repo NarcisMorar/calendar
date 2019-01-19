@@ -317,9 +317,6 @@ $allCalendars = $allCals->allCalendars;
                                <label for="allDay" style="padding-right: 5px">
                                 <input type="checkbox" name="allDay" id="allDay"> All Day
                                </label>
-                               <label for="repeat" style="padding-right: 5px">
-                                <input type="checkbox" name="repeat" id="repeat" value="1"> Repeat
-                               </label>
                                &nbsp;
                                <div class="show-link" style="float: right; padding-right: 5px;">
                                <a href="javascript:void(0);" id="show-standard-settings">Show Standard Settings</a>
@@ -335,14 +332,14 @@ $allCalendars = $allCals->allCalendars;
                             </div>
 
                             <!-- Repeat Box -->
-                            <!-- <div class="panel panel-info repeat-box col-sm-12" style="margin-top: 8px; margin-bottom: 8px;">
+                            <div class="panel panel-info repeat-box col-sm-12" style="margin-top: 8px; margin-bottom: 8px;">
 
 
                                 <?php include(SERVER_HTML_INCLUDE_DIR .'unlock-massage.html.php') ?>
                                 <img src="<?php echo BASE_URL?>images/event-repeat-demo.png" />
 
 
-                            </div> -->
+                            </div>
 
                             <!-- Repeat Box Ends -->
 
@@ -369,28 +366,6 @@ $allCalendars = $allCals->allCalendars;
                                     </div>
                                 </div>
 
-                                <div class="form-group">
-                                    <label for="select-calendar" class="col-sm-3 control-label">Calendars</label>
-                                    <div class="col-sm-9">
-                                        <!--<select class="selectpicker show-tick" data-selected-text-format="count" multiple>-->
-                                        <select id="select-calendar" class="selectpicker show-tick col-lg-12 select-calendar-cls" name="selected_calendars[]">
-                                            <?php if($allCalendars != NULL) foreach($allCalendars as $k => $v){ ?>
-                                                <?php
-                                                //print_r($_SESSION['userData']['active_calendar_id']);
-                                                $selectedDone = false;
-                                                if(!$selectedDone && in_array($v['id'],$_SESSION['userData']['active_calendar_id'])){
-                                                    $active = 'selected="selected"';
-                                                    $selectedDone = true;
-                                                }
-                                                else {
-                                                    $active = '';
-                                                }
-                                                ?>
-                                                <option data-color="<?php echo $v['color']?>" <?php echo $active?> value="<?php echo $v['id']?>" data-content='<span class="multiple-select-option-label"><?php echo htmlspecialchars($v['name'], ENT_QUOTES);?></span>'><?php echo htmlspecialchars($v['name'], ENT_QUOTES);?></option>
-                                            <?php } ?>
-                                        </select>
-                                    </div>
-                                </div>
 
                                 <div class="form-group">
                                     <label for="backgroundColor" class="col-sm-3 control-label">Event Color</label>
@@ -422,15 +397,6 @@ $allCalendars = $allCals->allCalendars;
                                     </div>
                                 </div>
 
-                                <div class="form-group">
-                                    <label for="free_busy" class="col-sm-3 control-label">Show as</label>
-                                    <div class="col-sm-9">
-                                        <select name="free_busy" id="free_busy" class="form-control">
-                                            <option value="free">Free</option>
-                                            <option value="busy">Busy</option>
-                                        </select>
-                                    </div>
-                                </div>
 
                                 <div class="form-group">
                                     <label for="privacy" class="col-sm-3 control-label">Privacy</label>
@@ -450,37 +416,6 @@ $allCalendars = $allCals->allCalendars;
 
 
                         </div>
-
-
-                        <div class="well well-sm" style="margin-top: 10px; min-height: 40px;">
-                            <span class="basic-remind">
-                               <div class="show-link-remind" style="float: right; padding-right: 5px;">
-                                   <a href="javascript:void(0);" id="show-reminder-settings">Show Reminder Settings</a>
-                               </div>
-                            </span>
-
-                            <div class="form-inline reminder" style="float: right; padding-bottom:3px">
-                                <div class="checkbox" style="padding-top: 0; float: right; ">
-                                    <label for="hide-reminder-settings-settings"  style="padding-right: 5px; ">
-                                        <a href="javascript:void(0);" id="hide-reminder-settings">Hide Reminder Settings</a>
-                                    </label>
-                                </div>
-                            </div>
-
-                            <div class="reminder col-sm-12" style="margin-top: 8px">
-
-                                <?php include(SERVER_HTML_INCLUDE_DIR .'unlock-massage.html.php') ?>
-                                <img src="<?php echo BASE_URL?>images/event-reminder-demo.png" />
-
-
-                            </div>
-
-                            <!-- Standard Settings Ends -->
-
-
-                        </div>
-
-
 
                     </fieldset>
                 </div>

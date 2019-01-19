@@ -142,20 +142,20 @@ $pec->dragOpacity(.2);
     <div class="starter-template">
         <p class="lead">
         <div class="row">
-            <div class="col-md-2" style="padding: 0;max-width:225px;min-width:225px">
+            <!-- <div class="col-md-2" style="padding: 0;max-width:225px;min-width:225px"> -->
                 <!-- Create New Event Button -->
                 <div style="float: left; padding-left: 10px;">
                     <button type="button" class="btn btn-success disabled" style="display:none">Create New Event</button>
                 </div>
                 <div style="clear: both; height: 17px; display: none"></div>
                 <!-- Date Picker -->
-                <div id="date-picker" style="border: 1px solid #d9d9d9; margin-left: 3px; margin-top: 0; padding-top: 0; border-radius: 2px"></div>
+                <!-- <div id="date-picker" style="border: 1px solid #d9d9d9; margin-left: 3px; margin-top: 0; padding-top: 0; border-radius: 2px"></div> -->
 
 
                 <!-- My Calendar -->
-                <div id="my-calendars" class="panel panel-default" style="margin-top: 10px; margin-left: 3px;">
+                <!-- <div id="my-calendars" class="panel panel-default" style="margin-top: 10px; margin-left: 3px;">
                     <div class="panel-heading">
-                        <h3 class="panel-title" style="width: 100%">My Calendars <span id="add-calendar" class="glyphicon glyphicon-plus" style="float: right; margin-left: 8px;display:none"></span>&nbsp;<span id="manage-calendar" class="glyphicon glyphicon-cog" style="margin-top:1px; float: right; cursor: pointer; display:none"></span></h3>
+                        <h3 class="panel-title" style="width: 100%">My Calendars <span id="add-calendar" class="glyphicon glyphicon-plus" style="float: right; margin-left: 8px;display:none"></span>&nbsp;<span id="manage-calendar" class="glyphicon glyphicon-cog" style="margin-top:1px; float: right; cursor: pointer;display:none"></span></h3>
                     </div>
                     <div class="list-group" id="list-group-public">
 
@@ -174,8 +174,8 @@ $pec->dragOpacity(.2);
                             <a href="javascript:void(0);" class="list-group-item list-group-item-public ladda-button <?php echo $activeClass?>" data-style="expand-right" style="background-color: <?php echo $v['color']?>; color:white;" id="<?php echo $v['id']?>"><span class="ladda-label"><?php echo $v['name']?></span> <?php echo $active?></a>
                         <?php } ?>
                     </div>
-                </div>
-            </div>
+                </div> -->
+            <!-- </div> -->
             <div class="col-md-10" style="overflow:hidden;float:inherit;width:inherit">
                 <?php
                 $pec->display_container();

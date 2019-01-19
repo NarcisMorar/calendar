@@ -41,6 +41,7 @@
                                     <div class="col-sm-8">
                                         <select class="form-control" name="language" id="language">
                                             <option value="English" selected="selected">English</option>
+                                            <option value="Romanian" selected="selected">Romana</option>
                                         </select>
                                     </div>
                                 </div>

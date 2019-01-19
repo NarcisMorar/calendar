@@ -9,20 +9,16 @@
 </style>
 <div class="container">
     <div class="header">
-        <ul class="nav nav-pills pull-right">
-            <li><a href="#">Home</a></li>
-            <li><a href="https://narcismorar.com/" target="_new">Contact Us</a></li>
-            <li class="active"><a href="guest.php" target="_new">Public Calendar</a></li>
-        </ul>
+      <!-- <ul class="nav nav-pills pull-right">
+          <li class="active"><a href="guest.php" target="_new">Public Calendar</a></li>
+
+
+      </ul> -->
         <h1 class="text-muted"><img src="images/pec-logo.png" alt="PEC logo" /></h1>
     </div>
     <br />
 
     <div class="jumbotron">
-        <!-- <div>
-            login: admin<br />
-            pass: 123456
-        </div> -->
         <p class="lead">
             <div class="panel panel-default">
                 <div class="panel-heading">
@@ -52,10 +48,16 @@
                 </div>
             </div>
         </p>
+        <ul class="nav nav-pills pull-right">
+            <li class="active"><a href="guest.php" target="_new">Public Calendar</a></li>
+        </ul>
     </div>
 
     <div class="footer">
-        <p>© Calendar Misiune <?php echo date('Y');?></p>
+
+
+    <p>© Calendar Misiune <?php echo date('Y');?></p>
+
     </div>
 
 </div>

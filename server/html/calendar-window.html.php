@@ -24,7 +24,7 @@
 
     <ul class="nav nav-pills" style="float: right">
         <li><a href="javascript:void(0);" id="cal-settings-link">Settings</a></li>
-        <li><a href="javascript: window.print();">Print</a></li>
+        <!-- <li><a href="javascript: window.print();">Print</a></li> -->
     </ul>
 
     <?php require_once ('includes/calendar-search.html.php'); ?>

@@ -4,9 +4,7 @@ ob_start();
 <!DOCTYPE html>
 <html>
 <head>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="shortcut icon" type="image/png" href="img/favicon.png">
-      <style>img[alt="www.000webhost.com"]{display:none;}</style>
+
 </head>
 <body>
     <div>

@@ -142,14 +142,14 @@ $pec->dragOpacity(.2);
         <div class="starter-template">
             <p class="lead">
                 <div class="row">
-                    <div class="col-md-2" style="padding: 0;max-width:225px;min-width:225px">
+                    <!-- <div class="col-md-2" style="padding: 0;max-width:225px;min-width:225px"> -->
                         <!-- Create New Event Button -->
                         <div style="float: left; padding-left: 10px;">
                             <button type="button" class="btn btn-success" id="create-new-event" style="display:none">Create New Event</button>
                         </div>
                         <div style="clear: both; height: 17px; display: none"></div>
                         <!-- Date Picker -->
-                        <div id="date-picker" style="border: 1px solid #d9d9d9; margin-left: 3px; margin-top: 0; padding-top: 0; border-radius: 2px"></div>
+                        <!-- <div id="date-picker" style="border: 1px solid #d9d9d9; margin-left: 3px; margin-top: 0; padding-top: 0; border-radius: 2px"></div> -->
 
 
                         <!-- My Calendar -->
@@ -180,7 +180,7 @@ $pec->dragOpacity(.2);
                                 <?php } ?>
                             </div>
                         </div> -->
-                    </div>
+                    <!-- </div> -->
                     <div class="col-md-10" style="overflow:hidden;float:inherit;width:inherit">
                         <?php
                             $pec->display_container();

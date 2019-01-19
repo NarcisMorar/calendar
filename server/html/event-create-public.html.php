@@ -151,74 +151,16 @@ $allCalendars = $allCals->allCalendars;
                             </div>
 
 
-                            <div class="form-group" id="desc_msg">
+                            <div>
+                                <p>Desciption</p>
+                                <div class="form-group" id="desc_msg">
                                 <div class="col-sm-12">
                                     <div class="guest-view" id="description" name="description"  style="height: auto; width: 95%;"></div>
                                 </div>
                             </div>
-
-                            <div class="event-details col-sm-12">
-                                <div class="col-sm-4">
-                                    <h6>Start</h6>
-                                    <div class="input-group col-sm-4" data-date="" data-date-format="yyyy-mm-dd" data-link-field="start" data-link-format="yyyy-mm-dd" >
-                                        <input type="text" class="form-control guest-view" id="start-date-guest" name="start-date" placeholder="Start Date" />
-                                    </div>
-                                    <div class="col-sm-3">
-                                        <input name="start-time" id="start-time" class="form-control guest-view"/>
-                                    </div>
-
-                                    <div id="end-group">
-                                        <h6>End</h6>
-                                        <div class="input-group col-sm-4" data-date="" data-date-format="yyyy-mm-dd" data-link-field="end" data-link-format="yyyy-mm-dd" >
-                                            <input type="text" class="form-control guest-view" placeholder="End Date" name="end-date" id="end-date-guest" />
-                                        </div>
-                                        <div class="col-sm-3">
-                                            <input name="end-time" id="end-time" class="form-control guest-view"/>
-                                        </div>
-                                    </div>
-
-                                    <div class="form-group" id="allday_msg">
-                                        <label for="dayAll" class="col-sm-3 control-label">&nbsp;</label>
-
-                                        <div class="col-sm-9">
-                                            <span id="dayAll" style="font-size: 12px; font-weight: bold;"></span>
-                                        </div>
-                                    </div>
-
-                                    <div class="form-group" id="repeat_msg">
-                                        <label for="repeat_type" class="col-sm-3 control-label">&nbsp;</label>
-
-                                        <div class="col-sm-9">
-                                            <span id="repeat_type" style="font-size: 12px; font-weight: bold;"></span>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-sm-3">
-                                    <div class="form-group" id="loc_msg">
-                                        <h6>Venue</h6>
-                                        <p>
-                                            <input type="text" class="form-control guest-view" id="location" name="location" placeholder="Location" />
-                                        </p>
-                                    </div>
-
-                                    <div class="form-group" id="url_msg">
-                                        <h6>URL</h6>
-                                        <p>
-                                            <!-- input type="text" class="form-control guest-view" id="url" name="url" -->
-                                            <a href="" class="guest-view" id="url" name="url"></a>
-                                        </p>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-sm-5">
-                                    <div style="overflow:hidden;height:auto;width:400px; margin-left: 30px;">
-                                        <div id="gmap_canvas" style="height:auto; width:400px;"></div>
-                                        <style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
-                                    </div>
-                                </div>
                             </div>
+
+
                         </div>
 
 
