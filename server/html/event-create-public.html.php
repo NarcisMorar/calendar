@@ -152,7 +152,7 @@ $allCalendars = $allCals->allCalendars;
 
 
                             <div>
-                                <p>Desciption</p>
+                                <p class="color">Desciption:</p><style>.color{color:red;}</style>
                                 <div class="form-group" id="desc_msg">
                                 <div class="col-sm-12">
                                     <div class="guest-view" id="description" name="description"  style="height: auto; width: 95%;"></div>
